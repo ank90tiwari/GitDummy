@@ -10,7 +10,9 @@ public class Basics extends CoonectiontoEmulator {
 	public static void main(String[] args) throws MalformedURLException {
 		// TODO Auto-generated method stub
 		AndroidDriver<AndroidElement> driver=Capabilities();
-		driver.findElementById("")
+		driver.findElementById("");
+		System.out.println("Adding one more line");
+		System.out.println("Adding one more line+2");
 		
 		
 		
